@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio | Debajit Chakraborty</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Debajit</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button
+            class="btn"
+            onclick="
+              window.open(
+                './assets/Debajit_Chakraborty_MIS_Executive_Resume_Spaced.pdf',
+              )
+            "
+          >
+            Download CV <i class="uil uil-file-alt"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Debajit Chakraborty</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                MIS Executive with 4 years of hands-on experience in data
+                management, reporting automation, and business intelligence.
+                Proven expertise in transforming raw data into actionable
+                insights to drive strategic decision-making.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#contact" class="hire">
+                <button class="btn blue-btn">Hire Me</button></a
+              >
+              <button
+                class="btn"
+                onclick="
+                  window.open(
+                    './assets/Debajit_Chakraborty_MIS_Executive_Resume_Spaced.pdf',
+                  )
+                "
+              >
+                Download CV <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/dc.webp" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  Results-driven MIS Executive bringing 4 years of hands-on
+                  experience in turning complex datasets into clear, actionable
+                  insights. Recognized for building efficient tracking systems
+                  and streamlining data workflows using a robust toolkit that
+                  spans both spreadsheets and business intelligence platforms.
+                </p>
+                <div class="about-btn">
+                  <button
+                    class="btn"
+                    onclick="
+                      window.open(
+                        './assets/Debajit_Chakraborty_MIS_Executive_Resume_Spaced.pdf',
+                      )
+                    "
+                  >
+                    Download CV <i class="uil uil-import"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col skill-col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Advanced MS Excel</h3>
+                </div>
+                <div class="skills-list">
+                  <span>VLOOKUP</span>
+                  <span>XLOOKUP</span>
+                  <span>INDEX/MATCH</span>
+                  <span>Pivot Tables</span>
+                  <span>Data Summarization</span>
+                  <span>Nested IFs</span>
+                  <span>Dashboard Creation</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>G Sheets</h3>
+                </div>
+                <div class="skills-list">
+                  <span>IMPORTRANGE</span>
+                  <span>QUERY function</span>
+                  <span>Data Validation rules</span>
+                  <span>Real time Data Sahring</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Power BI</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Power Query</span>
+                  <span>Data Cleaning & Transformation</span>
+                  <span>Data Modelling</span>
+                  <span>Dashboard Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section id="projects" class="hidden-content">
+          <div class="projects-heading">
+            <h3>Browse My Recent</h3>
+            <h2>Projects</h2>
+          </div>
+          <div class="container projects-box all active-box">
+            <div class="project-info">
+              <img src="./assets/images/project-1.png" alt="project-1" />
+              <h2>Power BI Sales Report Dashboard</h2>
+              <div class="btn-projects-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/thedataguyweb/power-bi-sales-dashboard"
+                  ><button class="btn btn-color-1">View Project</button></a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <img src="./assets/images/project-2.png" alt="project-2" />
+              <h2>E-Commerce Sales Dashboard – Excel</h2>
+              <div class="btn-projects-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/thedataguyweb/excel-sales-dashboard"
+                  ><button class="btn btn-color-1">View Project</button></a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <img src="./assets/images/project-3.png" alt="project-3" />
+              <h2>Sales Performance Dashboard – Excel</h2>
+              <div class="btn-projects-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/thedataguyweb/excel-sales-performance-dashboard"
+                  ><button class="btn btn-color-1">View Project</button></a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <img src="./assets/images/project-2.png" alt="project-4" />
+              <h2>Advanced Power BI Sales Dashboard – Excel</h2>
+              <div class="btn-projects-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/thedataguyweb/advanced-power-bi-sales-dashboard-with-forecasting"
+                  ><button class="btn btn-color-1">View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="container projects-box html">
+            <div class="project-info">
+              <img src="./assets/images/project-1.png" alt="project-1" />
+              <h2>Project One</h2>
+              <div class="btn-projects-box">
+                <a
+                  target="_blank"
+                  href="https://github.com/debu100/netflix-clone"
+                  ><button class="btn btn-color-1">Github</button></a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <img src="./assets/images/project-2.png" alt="project-2" />
+              <h2>Project Two</h2>
+              <div class="btn-projects-box">
+                <a href="https://github.com/debu100/zomato-clone"
+                  ><button class="btn btn-color-1">Github</button></a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <img src="./assets/images/project-2.png" alt="project-2" />
+              <h2>Project Three</h2>
+              <div class="btn-projects-box">
+                <a href="https://github.com/debu100/zomato-clone"
+                  ><button class="btn btn-color-1">Github</button></a
+                >
+              </div>
+            </div>
+          </div> -->
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i> Email:
+                  debajitchakra@outlook.com
+                </p>
+                <p><i class="uil uil-phone"></i> Tel: +91 9163883143</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn">
+                    Send <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Debajit Chakraborty .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none"
+              >Debajit Chakraborty</a
+            >
+            - All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
